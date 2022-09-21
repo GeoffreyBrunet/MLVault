@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "25f6d2dcf016b736",
+    "type": "split",
+    "children": [
+      {
+        "id": "fab19a5dcda798dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4caaf007adc706cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Python/Langage/Asynchronous.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "383d7b2848d5bc1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eb849e650919c7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f97c48c64a8b5d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "708b21d3ded15714",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0550e755317d99c1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1b8f4ee66ca45653",
+    "type": "split",
+    "children": [
+      {
+        "id": "18b4b7f7e499a9cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd325be957d710e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1. Python/Langage/Asynchronous.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e3e863818ff964f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1. Python/Langage/Asynchronous.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca82251bcf4786fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "70a712ca4e233fde",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1. Python/Langage/Asynchronous.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4caaf007adc706cf",
+  "lastOpenFiles": [
+    "1. Python/Langage/Data Operators.md",
+    "1. Python/Libraires/Scipy.md",
+    "1. Python/Libraires/RxPy.md",
+    "1. Python/Libraires/Numpy.md",
+    "1. Python/Libraires/Numba JIT.md",
+    "1. Python/Libraires/Dask.md",
+    "1. Python/Langage/Threads And Process.md",
+    "1. Python/Langage/Synchronous.md",
+    "1. Python/Langage/Reactive Programming.md",
+    "1. Python/Langage/OOP.md"
+  ]
+}

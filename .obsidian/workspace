@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "25f6d2dcf016b736",
+    "type": "split",
+    "children": [
+      {
+        "id": "0425c9a2156880ef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3. Resources/Python/Numpy.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "383d7b2848d5bc1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0eb849e650919c7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f97c48c64a8b5d1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "708b21d3ded15714",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pool",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0550e755317d99c1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1b8f4ee66ca45653",
+    "type": "split",
+    "children": [
+      {
+        "id": "18b4b7f7e499a9cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd325be957d710e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Resources/Python/Numpy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e3e863818ff964f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. Resources/Python/Numpy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca82251bcf4786fa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "70a712ca4e233fde",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. Resources/Python/Numpy.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0425c9a2156880ef",
+  "lastOpenFiles": [
+    "3. Resources/Python/Cython.md",
+    "3. Resources/Python/Scipy.md",
+    "3. Resources/Python/Numpy.md",
+    "3. Resources/Python/Threads And Process.md",
+    "3. Resources/Python/OOP.md",
+    "3. Resources/Python/Python STD Library.md",
+    "3. Resources/Python/Python External Librairies.md",
+    "3. Resources/Python/Python.md",
+    "3. Resources/Python/Numba JIT.md",
+    "3. Resources/Python/Lambda.md"
+  ]
+}

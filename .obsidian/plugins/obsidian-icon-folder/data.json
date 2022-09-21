@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasCalculator",
+      "FasSignsPost",
+      "FasStar",
+      "FasBook",
+      "FarNewspaper"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 2,
+      "right": 2,
+      "bottom": 2,
+      "left": 2
+    }
+  },
+  "1. Python": "FabPython",
+  "2. ML": "FasBrain",
+  "0. Projects": "FasStar",
+  "_. MOC": "FasSignsPost",
+  "3. Papers": "FarNewspaper",
+  "4. Books": "FasBook"
+}
