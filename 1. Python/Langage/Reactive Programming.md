@@ -10,6 +10,6 @@ Reactive programming is based [[Asynchronous]] model of execution. Everything is
 Documentation: [Reactive Manifesto](https://www.reactivemanifesto.org).
 ## Advantages
 - Aims to allow the programmer to focus on the data streams and not the asynchronous part of programming.
-- Complex use of threads can be easily done, without going into the details.
+- Complex use of multiple [[Thread]] can be easily done, without going into the details.
 - Improved use of resources in asynchronous context.
 - Since, programmer does not code the asynchronous part of the program, the final code is more readable and compact.

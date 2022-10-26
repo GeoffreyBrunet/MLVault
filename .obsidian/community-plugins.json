@@ -5,7 +5,9 @@
   "obsidian-annotator",
   "obsidian-icon-folder",
   "dataview",
-  "obsidian-admonition",
   "obsidian-git",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-tikzjax",
+  "markdown-prettifier",
+  "obsidian-linter"
 ]

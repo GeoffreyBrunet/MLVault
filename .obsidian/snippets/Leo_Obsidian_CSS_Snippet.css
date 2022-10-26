@@ -1,0 +1,16 @@
+.markdown-source-view.mod-cm6 .cm-scroller, .markdown-source-view, .cm-s-obsidian, .cm-s-obsidian span.cm-formatting-task{
+margin-top: 40px !important;
+}
+
+.workspace-leaf.mod-active .view-header {
+    background: linear-gradient(
+120deg
+, var(--color-view-header-gradient-2) 0.5%, var(--color-view-header-gradient-2) 0.5%);
+}
+
+img{ background: white;}
+
+mjx-math {
+  font-size: 150% !important;
+}
+

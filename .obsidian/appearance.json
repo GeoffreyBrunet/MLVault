@@ -1,5 +1,9 @@
 {
   "theme": "system",
-  "translucency": false,
-  "accentColor": ""
+  "translucency": true,
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "Leo_Obsidian_CSS_Snippet"
+  ],
+  "cssTheme": "Things"
 }

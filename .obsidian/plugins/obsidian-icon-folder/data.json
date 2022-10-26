@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCode",
       "FasCalculator",
       "FasSignsPost",
       "FasStar",
-      "FasBook",
-      "FarNewspaper"
+      "FasBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -21,9 +21,9 @@
     }
   },
   "1. Python": "FabPython",
-  "2. ML": "FasBrain",
   "0. Projects": "FasStar",
   "_. MOC": "FasSignsPost",
-  "3. Papers": "FarNewspaper",
-  "4. Books": "FasBook"
+  "2. C++": "FasCode",
+  "3. ML": "FasBrain",
+  "4. Papers": "FarNewspaper"
 }

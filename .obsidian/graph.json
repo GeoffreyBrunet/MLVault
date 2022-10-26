@@ -5,8 +5,37 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#python",
+      "color": {
+        "a": 1,
+        "rgb": 5094754
+      }
+    },
+    {
+      "query": "#ml",
+      "color": {
+        "a": 1,
+        "rgb": 14699084
+      }
+    },
+    {
+      "query": "#autoencoders",
+      "color": {
+        "a": 1,
+        "rgb": 14395483
+      }
+    },
+    {
+      "query": "#graphs",
+      "color": {
+        "a": 1,
+        "rgb": 221047
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -18,5 +47,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.8001102010732551,
-  "close": false
+  "close": true
 }
