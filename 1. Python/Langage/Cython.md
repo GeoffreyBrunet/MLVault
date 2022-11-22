@@ -1,21 +1,25 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #language
-## Definition
+
+# Definition
 - Basically C code with Python.
 - It allows to use C data types, functions, modules, and so on within the Python code.
 - Basically translate our code to an optimized version of C code, which can be combined with Python code.
 - It's a superset of Python (barring a few exceptional cases).
-## Workflow
+
+# Workflow
 - Translate code written in Python.
 - Compile the code.
 - Bundle it to Python Extensions
 - Use the bundled Python extension in your existing Python code.
-## Code notes
-### Installation
+
+# Code notes
+## Installation
 ```shell
 pip install Cython
 ```
-### Hello World in Cython
+
+## Hello World in Cython
 Cython code use **.pyx** extension. Create `hello.pyx` file with this body:
 ```cython
 print("Hello, World!")
@@ -36,7 +40,8 @@ and now in **Python interpreter**, can use `hello` package:
 import hello
 # Print Cython string as output
 ```
-### Use Cython in Jupyter notebook
+
+## Use Cython in Jupyter notebook
 To use Cython in the Jupyter Notebook, we first need to import the Cython Jupyter extension:
 ```ipynb
 %load_ext cython
@@ -45,7 +50,8 @@ and in a Cython cell, add cython's prefix:
 ```ipynb
 %%cython
 ```
-### Define function
+
+## Define function
 **Python functions** are defined using the `def` statement, as in Python. They take Python objects as parameters and return Python objects.
 **C functions** are defined using the new `cdef` statement. They take either Python objects or C values as parameters, and can return either Python objects or C values.
 **Hybrid functions** are defined using `cpdef` statement. `cpdef` functions combine both `def` and `cdef` by creating two functions; a `cdef` for C types and a `def` for Python types.

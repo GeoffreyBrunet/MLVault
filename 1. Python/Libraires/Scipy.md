@@ -1,8 +1,10 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #library
-## Definition
+
+# Definition
 **SciPy** is not just a library, but a whole **ecosystem** of libraries that work together to help you accomplish complicated scientific tasks quickly and reliably.
-## Code notes
+
+# Code notes
 Scipy can compute linear algebrea algorithms on [[Numpy]] `ndarray`. Here get determinant of matrix (ndarray).
 ```python
 import numpy as np

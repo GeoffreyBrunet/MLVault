@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a06b41048a661373",
+        "id": "24193287ef8378f9",
         "type": "tabs",
         "children": [
           {
-            "id": "4f51caa28702afa2",
+            "id": "cbeb2dc6728d333b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. ML/Gradient descent/Parametric experiments on G.D..md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#gradientdescent",
+                "query": "matrix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. ML/Gradient descent/Parametric experiments on G.D..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. ML/Gradient descent/Parametric experiments on G.D..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "3. ML/Gradient descent/Parametric experiments on G.D..md"
-              }
+              "state": {}
             }
           }
         ],
@@ -137,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f51caa28702afa2",
+  "active": "cbeb2dc6728d333b",
   "lastOpenFiles": [
-    "3. ML/Gradient descent/Gradient descent in 2D.md",
-    "3. ML/Gradient descent/Parametric experiments on G.D..md",
-    "3. ML/Gradient descent/Gradient descent in 1D.md",
-    "3. ML/Gradient descent/Overview of gradient descent.md",
-    "3. ML/Experiments/Google Jax with IREE.md",
-    "3. ML/Experiments/Stable Diffusion.md",
-    "2. C++/LLVM/Clang-format.md",
-    "2. C++/CMake/Project structure.md",
-    "2. C++/CMake/Catch2.md",
-    "3. ML/Parameters/Learning rate.md"
+    "4. Quantum Computing/Q computing theorical/Dirac's notation.md",
+    "3. ML/Deep Learning/Maths/Variance.md",
+    "3. ML/Deep Learning/Maths/Transpose vector or matrix.md",
+    "3. ML/Deep Learning/Maths/T-test.md",
+    "3. ML/Deep Learning/Maths/Standard deviation.md",
+    "3. ML/Deep Learning/Maths/Softmax.md",
+    "3. ML/Deep Learning/Maths/Reproducible randomness via seeding.md",
+    "3. ML/Deep Learning/Maths/Random sampling.md",
+    "3. ML/Deep Learning/Maths/Min Max and Argmin Argmax.md",
+    "3. ML/Deep Learning/Maths/Mean.md"
   ]
 }

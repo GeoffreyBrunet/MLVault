@@ -1,12 +1,15 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #language
-## Definition
+
+# Definition
 Multiple tasks can execute at time. For example, if two tasks are executed in this mode, one task has to waiting for I/O from user, the other task can start executing in the mean time to utilize the idle CPU time.
 The idea is that the tasks are basically independent on another. For example, say task 2 need to compute mean of the array on disk, while task 1 to input array from user and do some computation the task 2 can start executing while task 1 is waiting on user input.
-## Drawbacks
+
+# Drawbacks
 - Does not cause any blocking call.
 - Since tasks are independent of each other, they can be executed in any order.
-## AsyncIO
+
+# AsyncIO
 [AsyncIO](https://docs.python.org/fr/3/library/asyncio.html) is a library for asynchronous programming using the async/await syntax.
 Install with:
 ```shell

@@ -1,6 +1,7 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #language 
-## Defition
+
+# Defition
 - use native processes
 - has mutliple [[Thread]] and child processes
 - heavyweight, slow to start
@@ -8,7 +9,8 @@
 - not subject to the GIL
 - suited to CPU-bound tasks
 - create 10s of workers
-## Process
+
+# Process
 ```python
 from multiprocessing import Process
 
@@ -28,7 +30,8 @@ def do_threading():
 ```
 The `start()` method start execution of the process.
 The `join()` method provides a way for one process to block until another thread has finished.
-## Pool of workers
+
+# Pool of workers
 `Pool` provides a pool of reusable processes for executing ad hoc tasks.
 The built-in `map()` function allows you to apply a function to each item in an iterable.
 `Pool`provides an asynchronous parallel version of the `map_async()` function.

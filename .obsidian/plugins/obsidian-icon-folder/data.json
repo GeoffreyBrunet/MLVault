@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FasCode",
-      "FasCalculator",
-      "FasSignsPost",
-      "FasStar",
-      "FasBook"
+      "FasSquareRootVariable",
+      "FasCat",
+      "FarNewspaper",
+      "FasAtom",
+      "FasCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,5 +25,6 @@
   "_. MOC": "FasSignsPost",
   "2. C++": "FasCode",
   "3. ML": "FasBrain",
-  "4. Papers": "FarNewspaper"
+  "4. Quantum Computing": "FasCat",
+  "5. Papers": "FarNewspaper"
 }

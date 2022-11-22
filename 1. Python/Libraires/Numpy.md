@@ -1,10 +1,11 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #library
-## Definition
+
+# Definition
 NumPy is a Python library that provides a simple yet powerful data structure: the **n-dimensional array**. Written in C, numpy is more powerfull and faster than python's lists. Conditions and loops run 2-8x faster, overall 30% faster for plain Python code
 
-## Code notes
-### Creating
+# Code notes
+## Creating
 Create numpy's ndarray:
 ```python
 import numpy as np
@@ -16,12 +17,14 @@ np_array = np.array([[1, 2, 3], [4, 5, 6]])
 py_list = [1, 2, 3, 4, 5]
 np_array = np.array(py_list)
 ```
-### Having informations
+
+## Having informations
 Print shape of an array:
 ```python
 np.array.shape
 ```
-### Slicing
+
+## Slicing
 `ndarray[:X]` where $X$ is integer, slice all elements before row $X$.
 ```python
 np_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -47,7 +50,8 @@ np_array[1:3, 1:3]
 # Print is : array([[5, 6],
 #					[8, 9]])
 ```
-### Integer array indexing
+
+## Integer array indexing
 `my_np_array[[A, B, C], [X, Y, Z]]` keep data on $A$, $B$, and $C$ rows, and $X$, $Y$, $Z$, columns.
 ```python
 my_np_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
@@ -55,7 +59,8 @@ my_np_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
 my_np_array[[0, 1, 2], [0, 1, 2]]
 # Print is : array([1, 5, 9])
 ```
-### Boolean masking
+
+## Boolean masking
 Print boolean response, in this exemple print true if number is even and false if it's odd.
 ```python
 my_np_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
@@ -64,7 +69,8 @@ bool_mask = my_np_array%2==0
 
 bool_mask
 ```
-### Numerical operations
+
+## Numerical operations
 Numpy's arrays can compute numerical operations on ndarray.
 ```python
 np_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
@@ -84,7 +90,8 @@ new_np_array = np_array / 2
 np_array1 + np_array2
 ```
 More on [Math numpy documentation](https://numpy.org/doc/stable/reference/routines.math.html).
-## Using with [[Cython]]
+
+# Using with [[Cython]]
 Numpy can be use in Cython for more fast computing. `@boundscheck` and `@wraparound` are checks for Cython's arrays. `@boundscheck` deactivate bounds checking, `@wraparound` deactivate negative indexing.
 ```cython
 import numpy as np

@@ -1,7 +1,8 @@
 **MOC**:: [[2. C++ MOC]]
 **Tags**:: #cplusplus #llvm
 **Doc**:: [Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
-## Basic file
+
+# Basic file
 Create `.clang.format` in c++ project for set formatting parameters for [clang](https://clang.llvm.org).
 Basic `.clang.format` file contains:
 ```

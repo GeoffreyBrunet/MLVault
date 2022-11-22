@@ -1,14 +1,17 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #library
-## Definition
+
+# Definition
 [RxPy](https://rxpy.readthedocs.io/en/latest/) (Reactive Extension for Python) is a set of libraries for implementing [[Reactive Programming]] paradigm in Python. It have implementations for [[Observers]], [[Observables]], [[Data Operators]], and so on. It also have schedulers for [[Asynchronous]] programming that can be combined with other Python librairies like AsyncIO, PyGames and others.
-## Installation
+
+# Installation
 ```shell
 pip install rx
 ```
-## Code examples
-### Introduction example
-#### Observer
+
+# Code examples
+## Introduction example
+### Observer
 There are the three events for observers:
 1. on_next() - the next element in stream is recieved (if it exists)
 2. on_completed()- the subscribed stream has finished transmitting
@@ -28,7 +31,7 @@ class my_observer(Observer):
 		# Define error according to your use case
 		pass
 ```
-#### Observable
+### Observable
 Create observable:
 ```python
 my_subscriber = Observable.from_(range(0, 20, 2))
@@ -41,7 +44,7 @@ my_var = my_subscriber.subscribe(my_observer())
 ```python
 my_subscriber.subscribe(on_next = lambda x: print("I have recieved {}".format(x)), on_completed = lambda: print("completed"))
 ```
-### Using Data Operators with RxPy
+## Using Data Operators with RxPy
 ```python
 my_observable = Observable.from_(range(0, 20, 2))
 my_var = my_observable.subscribe(my_observer())

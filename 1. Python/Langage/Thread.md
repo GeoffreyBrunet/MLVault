@@ -1,6 +1,7 @@
 **MOC**:: [[1. Python MOC]]
 **Tags**:: #python #language
-## Definition
+
+# Definition
 - use native threads
 - belong to a process
 - lightweight, fast to start
@@ -9,7 +10,7 @@
 - suited to IO-bound tasks
 - create 10s to 1000s workers
 
-## Thread
+# Thread
 ```python
 from threading import Thread
 

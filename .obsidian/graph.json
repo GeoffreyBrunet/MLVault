@@ -22,17 +22,24 @@
       }
     },
     {
-      "query": "#autoencoders",
+      "query": "#cplusplus",
       "color": {
         "a": 1,
         "rgb": 14395483
       }
     },
     {
-      "query": "#graphs",
+      "query": "#quantum",
       "color": {
         "a": 1,
         "rgb": 221047
+      }
+    },
+    {
+      "query": "#mathsphysics",
+      "color": {
+        "a": 1,
+        "rgb": 7618843
       }
     }
   ],
@@ -46,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8001102010732551,
+  "scale": 0.25487896259308923,
   "close": true
 }
